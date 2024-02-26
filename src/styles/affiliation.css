@@ -1,0 +1,9 @@
+* {
+  box-sizing: o;
+  padding: o;
+  margin: 0;
+}
+.new_linkLink {
+  text-decoration: none;
+  color: red;
+}
