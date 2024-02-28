@@ -54,26 +54,35 @@ function App() {
         console.error("Error updating count:", error);
       });
   };
+  const [step, setStep] = useState(1); // State to track the current step
 
+  const handleNextStep = () => {
+    setStep((prevStep) => prevStep + 1); // Increment the step
+  };
   return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <div>
-        <Routes>
-          <Route
-            exact
-            path="/"
-            element={<Home affiliationCount={affiliationCount} />}
-          />
-          <Route
-            exact
-            path="/affiliation"
-            element={<Affiliation onRegister={handleRegistration} />}
-          />
-          {/* <Route exact path="/congratulations" element={<Congratulations />} /> */}
-          <Route exact path="/maintenancePage" element={<MaintenancePage />} />
-        </Routes>
-      </div>
-    </Router>
+    // <Router basename={process.env.PUBLIC_URL}>
+    //   <div>
+    //     <Routes>
+    //       <Route
+    //         exact
+    //         path="/"
+    //         element={<Home affiliationCount={affiliationCount} />}
+    //       />
+    //       <Route
+    //         exact
+    //         path="/affiliation"
+    //         element={<Affiliation onRegister={handleRegistration} />}
+    //       />
+    //       {/* <Route exact path="/congratulations" element={<Congratulations />} /> */}
+    //       <Route exact path="/maintenancePage" element={<MaintenancePage />} />
+    //     </Routes>
+    //   </div>
+    // </Router>
+    <div className="App">
+      {step === 1 && <Home affiliationCount={affiliationCount} />}
+      {step === 2 && <Affiliation onRegister={handleRegistration} />}
+      {step === 3 && <MaintenancePage />}
+    </div>
   );
 }
 

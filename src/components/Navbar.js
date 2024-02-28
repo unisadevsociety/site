@@ -38,7 +38,7 @@ function MyNavbar() {
             <Nav.Link as={Link} to="/maintenancePage">
               Blog
             </Nav.Link>
-            <Nav.Link as={Link} to="/maintenancePage">
+            <Nav.Link as={Link} to="https://unisadevsociety.github.io/LIB/">
               Resources
             </Nav.Link>
             <Link to="/affiliation">

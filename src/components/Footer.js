@@ -5,6 +5,7 @@ import {
   FaLinkedin,
   FaGithub,
   FaTwitter,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "../styles/Footer.css";
@@ -21,27 +22,47 @@ function Footer() {
               <h3 className="footer-heading">Connect with us</h3>
               <ul className="social-icons">
                 <li>
-                  <a href="https://facebook.com" className="black-text">
-                    <FaFacebook />
+                  <a
+                    href="https://chat.whatsapp.com/KHqV67GD14W6tTQAbMJ08u"
+                    className="black-text"
+                    target="_blank"
+                  >
+                    <FaWhatsapp />
                   </a>
                 </li>
                 <li>
-                  <a href="https://instagram.com" className="black-text">
+                  <a
+                    href="https://www.instagram.com/invites/contact/?i=1jv0y69hgenlh&utm_content=twz8c62"
+                    className="black-text"
+                    target="_blank"
+                  >
                     <FaInstagram />
                   </a>
                 </li>
                 <li>
-                  <a href="https://linkedin.com" className="black-text">
+                  <a
+                    href="https://www.linkedin.com/company/unisadevsociety/"
+                    className="black-text"
+                    target="_blank"
+                  >
                     <FaLinkedin />
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com" className="black-text">
+                  <a
+                    href="https://github.com/unisadevsociety"
+                    className="black-text"
+                    target="_blank"
+                  >
                     <FaGithub />
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com" className="black-text">
+                  <a
+                    href="https://twitter.com"
+                    className="black-text"
+                    target="_blank"
+                  >
                     <FaTwitter />
                   </a>
                 </li>

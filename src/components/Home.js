@@ -79,10 +79,21 @@ function Home({ affiliationCount, incrementAffiliationCount }) {
               students to shine, learn, and grow, offering unparalleled
               opportunities for personal and professional development.
             </p>
-            <div className="joinusButton">
-              <Link to="/affiliation" className="joinusButtonButton">
-                Join our Community
-              </Link>
+            <div className="herosectionbuttons">
+              <div className="joinusButton">
+                <Link to="/affiliation" className="joinusButtonButton">
+                  Join our Community
+                </Link>
+              </div>
+              {/* <div className="StudymaterialButton">
+                <Link
+                  as={Link}
+                  to="https://unisadevsociety.github.io/LIB/"
+                  className="StudymaterialButtontext"
+                >
+                  Study materials
+                </Link>
+              </div> */}
             </div>
           </div>
           <div className="rightHeroSide">
