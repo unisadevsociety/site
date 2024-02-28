@@ -14,7 +14,7 @@ ReactDOM.render(
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/home" element={<Home />} />
         <Route exact path="/affiliation" element={<Affiliation />} />
         <Route exact path="/maintenancePage" element={<MaintenancePage />} />
       </Routes>
