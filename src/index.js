@@ -11,7 +11,7 @@ import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename="/site">
       <Routes>
         <Route path="/" element={<App />} />
         <Route exact path="/home" element={<Home />} />
