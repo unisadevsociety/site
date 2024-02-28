@@ -79,8 +79,15 @@ function App() {
     //   </div>
     // </Router>
     <div className="App">
-      {step === 1 && <Home affiliationCount={affiliationCount} />}
-      {step === 2 && <Affiliation onRegister={handleRegistration} />}
+      {step === 1 && (
+        <Home affiliationCount={affiliationCount} onNextStep={handleNextStep} />
+      )}
+      {step === 2 && (
+        <Affiliation
+          onRegister={handleRegistration}
+          onNextStep={handleNextStep}
+        />
+      )}
       {step === 3 && <MaintenancePage />}
     </div>
   );
