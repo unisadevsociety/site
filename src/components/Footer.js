@@ -75,13 +75,19 @@ function Footer() {
               <h3 className="footer-heading">Quick Links</h3>
               <ul className="quick-links">
                 <li>
-                  <Link to="/maintenancePage" className="black-text">
+                  <Link
+                    to="https://unisadevsociety.github.io/team/"
+                    className="black-text"
+                  >
                     Contact Us
                   </Link>
                 </li>
                 <li>
-                  <Link to="/maintenancePage" className="black-text">
-                    Blog
+                  <Link
+                    to="https://unisadevsociety.github.io/team/"
+                    className="black-text"
+                  >
+                    Meet Our Team
                   </Link>
                 </li>
                 <li>
