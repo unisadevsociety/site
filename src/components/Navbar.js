@@ -35,8 +35,8 @@ function MyNavbar() {
             <Nav.Link as={Link} to="/maintenancePage">
               Gallery
             </Nav.Link>
-            <Nav.Link as={Link} to="https://unisadevsociety.github.io/team/">
-              Our Team
+            <Nav.Link as={Link} to="#">
+              Blog
             </Nav.Link>
             <Nav.Link as={Link} to="https://unisadevsociety.github.io/LIB/">
               Resources
