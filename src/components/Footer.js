@@ -80,7 +80,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="#" className="black-text">
+                  <Link to="/maintenancePage" className="black-text">
                     Meet Our Team
                   </Link>
                 </li>
