@@ -85,7 +85,7 @@ function Home({ affiliationCount, incrementAffiliationCount }) {
                   Join our Community
                 </Link>
               </div>
-              {/* <div className="StudymaterialButton">
+              <div className="StudymaterialButton">
                 <Link
                   as={Link}
                   to="https://unisadevsociety.github.io/LIB/"
@@ -93,7 +93,7 @@ function Home({ affiliationCount, incrementAffiliationCount }) {
                 >
                   Study materials
                 </Link>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="rightHeroSide">
