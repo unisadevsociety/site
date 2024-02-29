@@ -119,6 +119,9 @@ function Footer() {
           <div className="black-text">
             © All rights reserved to UNISA Developer Society
           </div>
+          <div className="botomaffiliatetext">
+            UDS is not affiliated with unisa src
+          </div>
         </div>
       </div>
     </footer>

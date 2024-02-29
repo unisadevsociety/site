@@ -212,8 +212,14 @@
   text-align: center;
   margin-top: 2vh;
 }
+.botomaffiliatetext {
+  font-size: 0.7rem;
+}
 
 @media (max-width: 767px) {
+  .botomaffiliatetext {
+    font-size: 0.5rem;
+  }
   .heroContainer {
     flex-direction: column-reverse;
     align-items: center;
