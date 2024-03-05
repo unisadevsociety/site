@@ -72,7 +72,7 @@
   font-size: 1.3rem;
 }
 .StudymaterialButton {
-  width: 10vw;
+  width: 20vw;
   height: 5vh;
   margin-left: 3vw;
   border: 1px dotted #f39a34;
@@ -81,7 +81,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
+  font-size: 0.8rem;
   animation: buttonanimation infinite 2s;
 }
 @keyframes buttonanimation {
